@@ -1,45 +1,123 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Business Website
 
-Welcome USER_NAME,
+The core purpose of this website is to advertise Data Protection Solved to potential clients. 
+This is a real business and I am the business owner. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+# UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+# User Stories
 
-A blue button should appear to click: *Make Public*,
+### Wireframes
+* [Home]() Page
+* [About Us]() Page
+* [Contact Us]() Page 
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Design
 
-A blue button should appear to click: *Make Public*,
+### Colour Scheme:
+The two main colours used are [DimGrey](https://www.htmlcsscolor.com/hex/696969) 
+and [white](https://www.w3schools.com/colors/color_tryit.asp?color=White)
 
-Another blue button should appear to click: *Open Browser*.
+### Font:
+The [Montserrat](https://fonts.google.com/specimen/Montserrat) font is the main font used throughout the whole website with 
+[Sans Serif](https://fonts.google.com/?category=Sans+Serif) as the fallback font in case for any reason the font isn't being imported into the site correctly. 
+Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+# Features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The features of this website can be broken into groups, namely, existing features and features that will be implemented in the future. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Existing Features:
+The Contact Form allows the users to contact the business owner
+* Responsive on all device sizes
+* Interactive elements
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Features Left to Implement:
+Future ideas to be implemented are:
+* The Booking Vouchers which will be designed based on the [One 4 All Vouchers](https://www.one4all.ie/gift-cards-online.html).
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Technologies Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Languages Used:
+* [html5](https://www.techradar.com/news/internet/web/html5-what-is-it-1047393)
+* [CSS3](https://www.tutorialspoint.com/css/css3_tutorial.htm)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Frameworks, Libraries and Programs Used:
+1. [Bootstrap5:](https://getbootstrap.com/docs/5.0/examples/)
+* The project used Bootstrap to provide examples of appropriate templates
+2. [Hover.css:](https://ianlunn.github.io/Hover/)
+* This was used for transitioning over the social media icons at the footer of the webpage
+3. [Google Fonts:](https://fonts.google.com/)
+* Google fonts were used to import the ‘Montserrat’ font into the style.css file which is used on all pages throughout the project
+4. [Font Awesome:](https://fontawesome.com/icons?d=gallery&m=free)
+* This was use to select and use icons
+5. [JQuery:](https://jquery.com/)
+* This came with bootstrap to make the navbar more responsive
+6. [Git:](https://git-scm.com/) 
+7. [Github:] (https://github.com/)
+* Git and Github were both used for version control
+8. [Balsamiq:](https://balsamiq.com/)
+* Balsamiq was used to create the wireframes during the design process.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+# Testing
 
-Happy coding!
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were 
+no syntax errors in the project.
+[W3C Markup Validator Results]() 
+[W3C CSS Validator Results]()
+
+
+### Further Testing
+The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers by using a specific tester called 
+[Responsive Design](http://ami.responsivedesign.is/).
+
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+* A large amount of testing was done to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site and document the exact point where they noticed 
+something didn’t look right or didn’t work. 
+
+### Known Bugs:
+
+
+# Deployment
+
+
+### Github Pages:
+The project was deployed to GitHub using the following steps:
+
+1. Log into Github and locate the [Github Repisitory](link needed here)
+2. Use the [Github Docs](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to set up the page correctly so that you can control how it gets published.
+3. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+4. Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+5. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+6. Under "Source", click the dropdown called "None" and select "Master Branch".
+7. The page will automatically refresh.
+8. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+
+# Credits
+	 
+### Code
+Some of the code for this project was sourced from a [Bootstrap5 template](https://www.techradar.com/news/internet/web/html5-what-is-it-1047393)
+	
+### Content
+* All content was written by the developer. 
+* To find out more about the colour scheme, please see the [Psychological Properties of Colours](http://www.colour-affects.co.uk/psychological-properties-of-colours) 	 
+
+### Media
+* The images came from [Canva] (https://www.canva.com/).
+* The logo was sourced in 2019 from a developer on [Fiverr] (https://www.fiverr.com/).
+
+### Acknowledgement
+* A special ‘thank you’ to my mentor Antonio Rodriguez who dutifully answered my queries and provided 
+me with helpful links to relevant documents.
+* To the members of the Code Institute’s Slack Community.
+* To the tutors, Tim and Igor who provide me with a 5 star service.
+
+
