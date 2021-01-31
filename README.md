@@ -124,7 +124,8 @@ pages throughout the project
 > Balsamiq was used to create the wireframes during the design process.
 9. [TinyPng:](link)
 > This is an image compression tool
-
+10. [Font Awesome](https://fontawesome.com/)
+> Icon library toolkit 
 
 # Testing
 
