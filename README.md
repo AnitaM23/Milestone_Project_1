@@ -90,8 +90,9 @@ features and features that will be implemented in the future.
 * The Contact Us form allows the users to contact the business owner.
 * Form validation to help with spam attacks.
 * Responsive on all device sizes.
-* Interactive elements.
+* Interactive elements have been included using [JavaScript](https://getbootstrap.com/docs/5.0/getting-started/javascript/).
 * Slide out navigations from mobile/tablet navigations. 
+* The site is accessible as [Accessible Rich Internet Applications](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) was implemented.
 
 ### **Features Left to Implement:**
 Future ideas to be implemented are:
@@ -126,6 +127,8 @@ pages throughout the project
 > This is an image compression tool
 10. [Font Awesome](https://fontawesome.com/)
 > Icon library toolkit 
+11. [JavaScript](https://getbootstrap.com/docs/5.0/getting-started/javascript/)
+> This provides interactive elements 
 
 # Testing
 
