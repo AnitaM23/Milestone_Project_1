@@ -65,8 +65,8 @@ You can view the wireframes, below:
 ### **Colour Scheme:**
 The theme of this project is to offer consultancy services, therefore the design choices are 
 heavily influenced by professional looking colours and notifs.
-The two main colours used are [DimGrey](https://www.htmlcsscolor.com/hex/696969) 
-and [White.](https://www.w3schools.com/colors/color_tryit.asp?color=White)
+The two main colours used are [DimGrey](https://www.htmlcsscolor.com/hex/696969), 
+[GreenYellow](https://www.htmlcsscolor.com/hex/ADFF2F) and [White.](https://www.w3schools.com/colors/color_tryit.asp?color=White)
 
 ### **Font:**
 The [Montserrat](https://fonts.google.com/specimen/Montserrat) font is the main font used throughout 

@@ -1,3 +1,169 @@
 body {
     background-color: dimgray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Containers */
+
+.container-wrapper {}
+
+.container-wrapper--greenyellow {
+    background-color: greenyellow;
+    color: white;
+}
+
+. callout-container {
+    height:100vh;
+
+     background: url('../images/landingpage-image.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.services-container {
+    
+}
+
+.compliance-container {
+    
+}
+
+.feedback-container{
+    
+}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color:greenyellow;
+}
+
+.block-divider--greenyellow {
+    background-color:greenyellow;
+}
+
+.block-divider--dimgrey {
+    background-color: dimgray;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Content Container */
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: dimgray;
+}
+
+.jumbotron .lead {
+    color:dimgray;
+    margin: 25px 0;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--greenyellow {
+    color: white;
+    background-color:greenyellow;
+    border-color: greenyellow;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color:greenyellow;
+    border-color: greenyellow;
+    color: white;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Client Feedback */
+
+.feedback .page-header {
+    margin-bottom: 25px;
+}
+
+/* Features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color:dimgray;
+    border-color:dimgray;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:greenyellow;
 }
